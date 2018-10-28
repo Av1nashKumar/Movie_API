@@ -42,7 +42,7 @@ if(title == null || title == "" || title == undefined) {
        }
        
        verifyCheckStatus = true;
-       myUrl = 'http://www.omdbapi.com/?apikey=df12b502' + myUrl;
+       myUrl = 'https://www.omdbapi.com/?apikey=df12b502' + myUrl;
 
      }
 
