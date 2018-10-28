@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OMDb API</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- navigation start here -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand">Movies</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  
+  <form class="form-inline my-2 my-lg-0">
+    
+    <input class="form-control mr-sm-2" type="text" id="title" placeholder="Title" aria-label="Title">
+    
+    <input class="form-control mr-sm-2" type="number" id="year" placeholder="Year" aria-label="Year">
+
+    <div class="col-auto  my-1">
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select form-control mr-sm-2" id="plot">
+        <option>Short</option>
+        <option>Full</option>
+      </select>
+    </div>
+
+    <input type="reset" class="btn btn-outline-danger form-control mr-sm-2" id="reset"></input>
+
+    <button id="submit" class="btn btn-outline-success form-control mr-sm-2">Search</button>
+
+  </form>
+  </div>
+</nav>
+
+<!-- navigation ends here -->
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="lds-circle" id="loader"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
